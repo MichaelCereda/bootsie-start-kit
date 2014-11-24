@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% include "partials/heading.html" %}
+<div id="site-content">
+    {% for post in posts %}
+    <div class="post">
+        <h2>{{ post.title }}</h2>
+        <p>{{ post.description }}</p>
+    {% endfor %}
+</div>
+</div>
+{% endblock%}

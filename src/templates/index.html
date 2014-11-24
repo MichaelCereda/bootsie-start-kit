@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {% include "partials/heading.html" %}
+    <h4>{{home.title}}</h4>
+    <p>{{home.description}}</p>
+
+    <p>{{bio.title}}</p>
+    <p>{{bio.content}}</p>
+{% endblock%}

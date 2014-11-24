@@ -1,0 +1,14 @@
+{
+  "engine":"nunjucks",
+  "bootstrap":"website.json",
+  "languages": ["en","it"],
+  "pretty_urls":true,
+  "resolve_file_paths":true,
+  "directories":{
+    "templates": "./src/templates",
+    "assets": "./src/assets",
+    "database": "./src/db",
+    "build": "./build",
+    "source": "./src"
+  }
+}

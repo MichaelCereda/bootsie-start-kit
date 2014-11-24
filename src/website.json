@@ -1,0 +1,29 @@
+{
+  "global":{
+    "website":{
+      "title":"Demo Website",
+      "description":"Insert Astonishing description here"
+    },
+    "menu":{
+
+    }
+  },
+  "pages":{
+    "/":{
+      "template":"index.html",
+      "content": {
+        "home | file": "home.json",
+        "bio | file":"bio.json"
+
+      }
+    },
+    "archive/$post.title": {
+      "template":"archive.html",
+      "base_dir":"/archive",
+      "content": [
+        {"post | file": "archive/first_post.json"},
+        {"post | file": "archive/second_post.json"}
+      ]
+    }
+  }
+}
