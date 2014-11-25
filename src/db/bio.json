@@ -1,4 +1,4 @@
 {
   "title":"Hello!",
-  "content|file":"bio/content.md"
+  "content|file|md":"bio/content.md"
 }
